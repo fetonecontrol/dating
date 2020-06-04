@@ -5,25 +5,16 @@ $(document).ready(function() {
 
 
 
-
     if (gender === 'male' && attribute === 'athletic') {
       let choice = "Arnold Schwartzenegger";
       $(".choice").text(choice);
+    } else if (gender === 'female' && attribute === 'athletic') {
+      let choice = "Arnold Schwarzenegger";
+      $(".choice").text(choice);
+    }
 
-    } else if  (gender === 'male' && attribute === 'caring') {
-      let choice = "Brad Pitt";
-      
-    } else if (gender === 'male' && attribute === 'rich') {
-      let choice = "Bill Gates";
-      
-    } else (gender === 'female' && attribute === 'intelligent') {
-      let choice = "Madeleine Albright";
-    } 
-
-    
+    $("#date").text();
     event.preventDefault();
 
   });
-
-  
 });
