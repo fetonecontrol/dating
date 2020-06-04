@@ -9,7 +9,13 @@ $(document).ready(function() {
       let choice = "Arnold Schwartzenegger";
       $(".choice").text(choice);
     } else if (gender === 'female' && attribute === 'athletic') {
-      let choice = "Arnold Schwarzenegger";
+      let choice = "Arnold Schwartzenegger";
+      $(".choice").text(choice);
+    } else if (gender === 'male' && attribute === 'rich') {
+      let choice = "Bill Gates";
+      $(".choice").text(choice);
+    } else if (gender === 'female' && attribute === 'itelligent') {
+      let choice = "Madeleine Albright";
       $(".choice").text(choice);
     }
 
