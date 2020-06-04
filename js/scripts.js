@@ -4,11 +4,23 @@ $(document).ready(function() {
     const attribute = $("#attribute").val();
 
 
-    $("#letter").show();
 
-    $(".gender").text(gender);
-    $(".attribute").text(attribute);
 
+    if (gender === 'male' && attribute === 'athletic') {
+      let choice = "Arnold Schwartzenegger";
+      $(".choice").text(choice);
+
+    } else if  (gender === 'male' && attribute === 'caring') {
+      let choice = "Brad Pitt";
+      
+    } else if (gender === 'male' && attribute === 'rich') {
+      let choice = "Bill Gates";
+      
+    } else (gender === 'female' && attribute === 'intelligent') {
+      let choice = "Madeleine Albright";
+    } 
+
+    
     event.preventDefault();
 
   });
