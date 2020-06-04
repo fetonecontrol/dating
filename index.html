@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/scripts.js" ></script>
+    <title></title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>If you could date anyone!</h1>
+      <form id="profile">
+        <div class="form-group">
+          <label for="gender" >Gender Preference</label>
+          <select id="gender" class="form-control">
+            <option value="female">Female</option>
+            <option value="male">Male</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="attributer" >Attributes</label>
+          <select id="attribute" class="form-control">
+            <option value="athletic">Athletic</option>
+            <option value="athletic">Intelligent</option>
+            <option value="caring">Caring</option>
+            <option value="rich">Rich</option>
+          </select>
+        </div>
+
+        <button type="submit" class="btn-primary">WHo!?</button>
+
+      </form>
+
+      <div id="date">
+        <h1>Who is it!?!</h1>
+        <p>Gender: <span class="gender"></span></p>
+        <p>Attribute: <span class="attribute"></span></p>
+      </div>
+    </div>
+
+  </body>
+</html>
